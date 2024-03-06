@@ -1,0 +1,167 @@
+h1{
+    font-family: 'Oleo Script', system-ui;
+    font-style: italic;
+    font-size: 30px;
+    }
+body{    
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   }
+
+#proyecto{
+    width: 100%px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+   display: inline-flex
+}
+
+#feed{
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    margin-left: 20%;
+}
+.post{
+   
+    margin: 0 auto;
+    width: 60%;
+}
+.iconos{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.iconosIzq{
+    float: left;
+    padding-right: 82.8%;
+    
+}
+.IconosDer{
+    float: right;
+}
+.username, .meGusta{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    color: white;
+    font-size: 25px;
+}
+.fotos, .comentarios, .comentariosExtra, .comentariosUser, .username, .iconos, .meGusta{
+    padding-bottom: 2%;
+}
+.fotos{
+    width: 100%;
+    height: 100%;
+    border-radius: 1%;
+    border-bottom: 1%;
+}
+.profPic{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+.postHeader{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    
+}
+.barraBaja{
+    padding-bottom: 25px;
+    border-bottom: .5px solid lightgrey;
+    opacity: 10%;
+}
+.barraAlta{
+    padding-top: 25px;
+}
+.menu{
+    line-height: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    border-right: .2px solid rgba(255, 255, 255, 0.15); 
+    position: fixed;
+    padding-left: 20px;
+    
+    
+}
+#menu{
+    background-clip: menu;
+}
+.centrarFoto{
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.fgpfp{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.comentariosExtra{
+    opacity: 50%;
+}
+#certified{
+    color: rgb(0, 83, 134);
+    font-size: 15px;
+}
+.storyPic0{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+}
+.storyPic1{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+}
+.stories{    
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.15); 
+    
+    
+}
+.story{
+   
+    margin: 0 auto; 
+    justify-content: flex-start;
+}
+.suggest{
+    line-height: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-left: 1px solid rgba(255, 255, 255, 0.15); 
+}
+.usuario{
+    align-items: center;
+    margin: 0 auto;
+}
+.storyProf{
+    display: block;
+    margin: 0 auto;
+}
+.centrar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
